@@ -1,0 +1,169 @@
+
+input,textarea,select,a:focus {
+        outline: none;
+    }
+.warp{
+    width: 100%;
+   
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header,.header-inner,.mynav{
+    width: 100%;
+}
+.header-inner{
+    background: #2b2e33;;
+}
+.header-top,.mynav-inner{
+    width: 1200px;
+    margin: 0 auto;    
+}
+
+.header-inner{
+    position: absolute;
+    position:fixed;
+    z-index: 9999;
+    top:0;
+}
+.opener{
+    float: left;
+    padding: 38px 38px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 400px;
+}
+
+.opener:hover span:first-child{
+   top:33px;
+}
+.opener:hover span:last-child{
+    bottom:29px;
+}
+.opener>span{
+    width: 30px;
+    height: 4px;
+    display: block;
+    background-color: #707479;
+    position: absolute;
+    left: 23px;
+}
+.opener>span:first-child{
+    top:30px;
+}
+.opener>span:nth-child(2){
+    top:38px;
+}
+.opener>span:last-child{
+    bottom: 26px;
+}
+.logo{
+    width: 190px;
+    height: 71px;
+    display: block;
+    float: left;
+    margin-right: 325px;
+    margin-top: 5px;
+    background-image: url(../images/Morethan_logo.png);
+    text-indent: -2000px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.header-top .shop{
+    width: 42px;
+    float: left;
+    cursor: pointer;
+    color: #c2c4c6;
+    font-size: 28px;
+    line-height: 76px;
+    position: relative;
+}
+
+.shop:hover{
+    color: #f5c26b;
+}
+.shop>span{
+    position: absolute;
+    top: 15px;
+    right:0px;
+    display: inline-block;
+    padding: 1px 2px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #c81623;
+    border-radius: 7px 7px 7px 0;
+    min-width: 12px;
+    text-align: center;
+
+}
+.denglu{
+    float: right;
+    width: 70px;
+    padding-top: 29px;
+    padding-bottom: 26px;
+}
+.denglu>a{
+    /* display: block; */
+    font-size: 16px;
+    color: #707476;
+    font-weight: 400;
+    
+}
+.denglu>a:hover{
+    color: #f5c26b;
+}
+.denglu>a:first-child{
+    padding-right: 2px;
+    border-right: 1px solid #a5c4c6;
+}
+.denglu>a:last-child{
+    padding-left: 2px;
+    border-left: 1px solid #a5c4c6;
+}
+.mynav{
+    background-image: url(../images/inspiration-geometry.jpg);
+    background-repeat: repeat-x;
+    display: none;
+   
+    transition: 0.9s all;
+}
+.mynav-inner{
+    padding: 30px 50px 30px 50px;
+    width: 1100px;
+    overflow: hidden;
+}
+.mynav-inner>span{
+    width: 50px;
+    font-size: 24px;
+    color: #d4d4d4;
+    display: block;
+    border-bottom: 1px solid #fff;
+}
+.mynav-inner>ul{
+    margin-top: 25px;
+    padding-bottom: 97px;
+}
+.mynav-inner>ul>li{
+    float: left;
+    display: block;
+    width: 171px;
+    height: 40px;
+    background: #2b2f33;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.mynav-inner>ul>li>a{
+    display: block;
+    color: #707479;
+    font-size: 20px;
+    padding-left: 15px;
+    line-height: 40px;  
+}
+.mynav-inner>ul>li>a:hover{
+    color: #f3bd62;
+}

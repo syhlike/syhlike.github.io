@@ -1,0 +1,246 @@
+
+h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,p::selection,span::selection,a::selection {
+    background:black;
+    color:#fff; }
+input,textarea,select,a:focus {
+        outline: none;
+    }
+.warp{
+    width: 100%;
+   
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.bannder,footer{
+    width: 100%;
+}
+.bannder-inner,.footer-inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.bannder{
+  
+   background-color: #000;
+   padding-top: 120px;
+   padding-bottom: 42px;
+}
+.erorr{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(238, 231, 231, 0.3);
+    
+}
+.erorr>span{
+    display: block;
+    /* width: 100px; */
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 400;
+    text-indent: 10px;
+    background-color: #707479;
+    position: absolute;
+    top:50%;
+    left: 40%;
+    border-radius: 5px;
+    background-image: url(../images/1.png);
+    background-repeat: no-repeat;
+    padding: 5px 20px;
+    background-position: 0 50%;
+}
+.main-left{
+    width: 780px;
+    float: left;
+}
+.main-left>img{
+    cursor: pointer;
+    display: block;
+    width: 560px;
+    height: 491px;
+}
+.main-right{
+    width: 380px;
+    height: 503px;
+    float: left;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 20px 20px 0px 20px;
+}
+.enter{
+    width: 380px;
+    margin-top: 60px;
+    padding-bottom: 35px;
+    
+}
+.zhanghao,.shouji{
+    float: left;
+    margin: 0px 30px;
+    color: #c2c4c6;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+}
+.zhanghao{
+    color: #2b2e33;
+    border-bottom: 1px solid #000;
+}
+.zhanghao-inner,.username,.password,.click,.other,.shouji-inner,.phone,.message{
+    width: 380px;
+}
+.phone{
+    margin-bottom: 22px;
+}
+.username,.password,.yanzhenma,.tupian,.message{
+    height: 44px;
+    border: 1px solid #c2c4c6;
+    border-radius: 3px;
+    margin-bottom: 22px;
+}
+.username>span,.password>span,.phone-inner>span{
+    display: block;
+    width: 46px;
+    height: 44px;
+    float: left;
+    color: #c2c4c6;
+    line-height: 44px;
+    font-size: 30px;
+    text-align: center;
+    border-right: 1px solid #c2c4c6;
+}
+.username>input,.password>input{
+    width: 313px;
+}
+.message>input{
+    width: 360px;
+}
+.username>input,.password>input,.yanzhenma>input,.tupian>input,.phone-inner>input,.message>input{
+    height: 42px;
+    padding-left: 20px;
+    float: left;
+    border: none;
+    font-size: 16px;
+    line-height: 42px;
+}
+.tupian>input{
+    width: 231px;
+    border: 1px solid #c2c4c6;
+}
+.tupian{
+    width: 380px;
+    border: none;
+}
+.phone-inner{
+    width: 251px;
+}
+.phone-inner{
+    height: 44px;
+    float: left;
+    border: 1px solid #c2c4c6;
+    border-radius: 5px;
+}
+.phone-inner>input{
+    width: 184px;
+}
+.phone>a{
+    width: 114px;
+    display: block;
+    float: right;
+    font-size: 14px;
+    text-align: center;
+    line-height: 46px;
+    color: #fff;
+    background: #f5c26b;
+    border-radius: 4px;
+
+}
+.yanzhenma{
+    width: 380px;
+    border: none;
+}
+.yanzhenma>input{
+    width: 230px;
+    float: left;
+    border: 1px solid #c2c4c6;
+}
+.yanzhenma>img,.tupian>img{
+    width: 114px;
+    height: 46px;
+    display: block;
+    float: right;
+}
+.forget{
+    margin-bottom: 20px;
+}
+.forget>a{
+    display: block;
+    width: 70px;
+    float: right;
+    text-align: right;
+    color: #000;
+}
+.main-right>p>a:hover{
+    color: #f5c26b;
+}
+.click1>a,.click2>a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 46px;
+    font-size: 18px;
+    color: #fff;
+    background: #f5c26b;
+    border-radius: 4px;
+}
+.click>a:hover{
+    background-color: #f3bd62;
+    color: #fff6e6;
+}
+.other{
+    margin-top: 50px;
+}
+.other>a{
+    display: block;
+}
+.weixin{
+    float: left;
+}
+.zhuce{
+    float: right;
+}
+.other>a>span{
+    color: #000;
+   
+    display: block;
+    float: left;
+}
+.weixin span:first-child{
+    color: limegreen;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.other>a>span:nth-child(2):hover,.other>a:nth-child(2) span:hover{
+    color: #f5c26b;
+}
+.shouji-inner{
+    display: none;
+}
+footer{
+    background-color: #131313;
+}
+.footer-inner{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.footer-inner>p{
+    color: #707479;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+}

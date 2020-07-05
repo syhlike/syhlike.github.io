@@ -1,0 +1,129 @@
+.wrap{
+    width: 100%;
+}
+section{
+    padding-top: 76px;
+    width: 100%;
+    background-color:  #f1f2f6;  
+    
+}   
+.sectionbox{
+    width: 1200px;
+    margin:0 auto;
+    background-color: #fff;
+    padding-bottom:100px;
+    
+}
+.sectioninner{
+    width: 100%;
+    background-color: #ece4d9;
+}
+.sectionup{
+    width: 1100px;
+    margin:0 auto;
+    line-height: 110px;
+}
+.sectionup p{
+    font-size: 24px;
+    color: #1c1f26;
+    float: left;
+}
+.shopnum{
+    font-size: 18px;
+    color: #ff6633;
+}
+.shopul{
+    float: right;
+    margin-top: 35px;
+    
+}
+.shopul li{
+    float: left;
+    line-height:38px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #1c1f26;
+}
+.shopul li:first-child{
+    border-bottom: 2px solid #1c1f26;
+}
+.sectiondown{
+    width: 1200px;
+    margin:0 auto;
+    min-height: 670px;
+    background:#fff;
+    margin-bottom: 28px;
+}
+.sectionall{
+    width: 1100px;
+    height: 45px;
+    margin:0 auto;
+    border-radius: 4px;
+    background-color: #ece4d9;
+    color:#b39472;
+}
+.allleft{
+    padding:14px 0 0 15px;
+    float: left;
+}
+.allleft p{
+    font-size: 14px;
+    float: left;
+}
+.remo{
+    cursor: pointer;
+    margin-left: 20px;
+    padding-left: 20px;
+    background: url('../images/all1.png') no-repeat left;
+    background-size: 30%;
+    transition: all 0.3s;
+}
+.remo1{
+    padding:0 25px;
+    background: url('../images/all2.png') no-repeat left;
+    background-size: 15%;
+    border-right: 1px solid #b39472;
+}
+.remo:hover{
+    color:#f3bd62;
+}
+.allshop{
+    padding-left:25px;
+}
+.allshop span{
+    color:#ff6633;
+    
+}
+.allright{
+    float: right;
+}
+.allright span{
+    display: block;
+    margin-left: -35px;
+    
+}
+.rightp{
+    float: left;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.rightprice{
+    margin:12px 10px;
+    float: left;
+    font-size: 18px;
+    color:#ff6633;
+    font-weight: bold;
+}
+.allright a{
+    margin-left: 30px;
+    width: 165px;
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 45px;
+    color: #fff;
+    font-size: 18px;
+    background: #f5c26b;
+    border-radius: 0 4px 4px 0;
+}
